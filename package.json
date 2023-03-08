@@ -1,0 +1,18 @@
+{
+  "name": "wpp-chatgpt",
+  "version": "1.0.0",
+  "description": "Cwhatsapp BOT talk like a human!",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [],
+  "author": "Hari",
+  "license": "FREE",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.58.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  }
+}
